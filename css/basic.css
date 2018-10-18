@@ -1,0 +1,20 @@
+
+@font-face {
+    font-family: maru;
+    src: url("\fonts\maru.oft");
+}
+
+.FMCHeader {
+	background-color:#D6D5D5;
+	text-align: center;
+	margin: 0px;
+	font-size: 20px;
+}
+
+.bottomImg {
+	height: 10%;
+	width: 10%;
+}
+body {
+	margin: 0px;
+}
