@@ -27,7 +27,7 @@ body {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 0.8%;
+    margin-bottom: 1%;
     width: 15.2%;
 }
 
@@ -48,5 +48,14 @@ body {
 .email {
 	height: 3%;
 	width: 3%;
+	vertical-align: middle;
+}
+.copyright{
+	font-family: "Times New Roman";
+	font-size: 1.2vw;
+}
+.line{
+	height: 0.1%;
+	width: 0.5%;
 	vertical-align: middle;
 }
