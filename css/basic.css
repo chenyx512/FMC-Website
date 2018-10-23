@@ -76,7 +76,7 @@ html,body{
 	vertical-align: middle;
 }
 .aboutus{
-	
+
 	text-align: center;
 	background-color: #EEEEEE;
 	padding-top: 1vw;
@@ -127,6 +127,13 @@ html,body{
   font-family:"Hiragino Sans";
   font-size: 4vw;
   font-weight: 100;
+  padding-top: 1vw;
+  padding-bottom:1vw;
+  color: #F8BA00;
+}
+.whatsnext{
+  text-align: center;
+  font-size: 4vw;
   padding-top: 1vw;
   padding-bottom:1vw;
   color: #F8BA00;
