@@ -20,13 +20,13 @@
 		<div class="slideshow-container">
 		<!-- Full-width images with number and caption text  can add text in each div with class"div"-->
 	  	<div class="indexSlides fade">
-		    <img src="images/850.jpg" class="sliderImage">
+		    <img src="images/810.jpg" class="sliderImage" onclick="link1()" style="cursor: pointer;">
 		  </div>
 		  <div class="indexSlides fade">
-		    <img src="images/840.jpg" class="sliderImage">
+		    <img src="images/800.jpg" class="sliderImage" onclick="link2()" style="cursor: pointer;">
 		  </div>
 		  <div class="indexSlides fade">
-		    <img src="images/lions.png" class="sliderImage">
+		    <img src="images/lions.png" class="sliderImage" onclick="link3()" style="cursor: pointer;">
 		  </div>
 		  <!-- Next and previous buttons -->
 		  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
@@ -39,7 +39,17 @@
 	 	</div>
 		<br>
 		<div class =whatsnext>
-			What's Next?</div>
+			What's Next?
+		<br>
+		<table>
+  		<tr>
+    		<td><img src="images/tmp/1.jpg" class=nextImg>lalala</td>
+    		<td><img src="images/tmp/2.jpg" class=nextImg>lalala</td>
+ 		 </tr>
+	</table>
+
+
+		</div>
 			<br><br><br>
 
 	</div>
@@ -54,17 +64,18 @@
 		<a href="https://www.youtube.com/channel/UCpz4sLRc71y-OxPh9IWpVSw"><img src="images/social_media/youtube.png" class=bottomImg></a>
 		<a style="text-decoration:none" href="wechat.html">
 		<img src="images/social_media/wechat.png" class=bottomImg></a><br>
+		<img src="images/social_media/location.png" class=loc>
 		<a style="text-decoration:none" href="https://www.google.com/maps/place/25+Marlboro+Rd,+Southborough,+MA+01772/@42.3095299,-71.5315777,17z/data=!3m1!4b1!4m5!3m4!1s0x89e38af995fe7e69:0x75d0eb0ae44d0539!8m2!3d42.309526!4d-71.529389">
-			<img src="images/social_media/location.png" class=loc>
+				<span class=abouUsTxt> 25 Marlboro Road Southborough, MA, 01772</span>
 		</a>
-		<span style="color:#5E5E5E"> 25 Marlboro Road Southborough, MA, 01772</span>
+
 		&nbsp;
 		<img src= "images/vertical-line.png" class=line>
 		&nbsp;&nbsp;
-		<a style="text-decoration:none" href="mailto:info@funnymoviecorp.com">
+
 			<img src="images/social_media/email.png" class=email>
-		</a>
-		<span style="color:#5E5E5E">info@funnymoviecorp.com</span></a>
+			<a style="text-decoration:none" href="mailto:info@funnymoviecorp.com">
+			<span class=abouUsTxt>info@funnymoviecorp.com</span></a>
 		<br>
 		<a style="text-decoration:none" href="whoweare.html"><span style="color:#FF644E">Who We Are</span></a>&nbsp;&nbsp;
 		<a style="text-decoration:none" href="contactus.html"><span style="color:#F8BA00">Contact Us</span></a>&nbsp;&nbsp;
@@ -72,7 +83,7 @@
 		<br>
 		<div> <span style="font-size: 1vw">
 			Copyright</span><span class =copyright> &copy;</span>
-			<span style="font-size: 1vw">
+			<span style="font-size: 19.2px">
 			2018 FMC All Rights Reserved.</span>
 		</div>
 
@@ -111,6 +122,15 @@
 			if(slideIndex==2){dots[1].className += " active2";}
 			if(slideIndex==3){dots[2].className += " active3";}
     }
+		function link1(){
+			window.location = "https://www.google.com";
+		}
+		function link2(){
+			window.location = "https://www.google.com";
+		}
+		function link3(){
+			window.location = "https://www.youtube.com/watch?v=JsWNj4afaYQ&t=2s";
+		}
   </script>
 
 </body>

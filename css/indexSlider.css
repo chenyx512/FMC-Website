@@ -1,9 +1,10 @@
 /* Slideshow container */
 .slideshow-container {
-  max-width: 90%;
+  max-width: 95%;
   position: relative;
   margin: auto;
 }
+
 
 /* Hide the images by default */
 .indexSlides {
@@ -20,7 +21,7 @@
 .sliderImage {
   width: 100%;
   border-radius:3vw;
-  box-shadow: 0px 0px 10px 10px gray;
+  box-shadow: 0px 0px 0.52vw 0.52vw gray;
 }
 
 /* Position the "next button" to the right */
@@ -37,16 +38,16 @@
   position: absolute;
   top: 36%;
   width: auto;
-  margin-top: -22px;
-  padding: 16px;
+  margin-top: -1.145vw;
+  padding: 0.833px;
 
   font-weight: bold;
   font-size: 15vh;
   transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
+  border-radius: 0 0.156vw 0.156vw 0;
 
   color: #929292;
-  opacity: 0.2;
+  opacity: 0.1;
 }
 
 /* On hover, add a black background color with a little bit see-through */
@@ -67,7 +68,7 @@
 
 .dots{
   position: absolute;
-  top: 92%;
+  bottom: 2vw;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
@@ -80,7 +81,7 @@
   cursor: pointer;
   height: 3vh;
   width: 3vh;
-  margin: 0 15px;
+  margin: 0 2.34vw;
   border-radius: 50%;
   display: inline-block;
   transition: background-color 0.6s ease;

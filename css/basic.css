@@ -16,7 +16,7 @@
  }
 html,body{
 	font-family: "maru";
-	font-size: 1.5vw;
+	font-size: 28px;
 	height: 100%;
 }
 
@@ -26,25 +26,25 @@ html,body{
   position: relative;
   text-align: center;
 	background-color:#EEEEEE;
-	font-size: 2.6vw;
-	padding-top: 0.10vw;
- 	padding-bottom:0.10vw;
+	font-size: 50px;
+	padding-top: 1.92px;
+ 	padding-bottom:1.92px;
 }
 .search {
   position: absolute;
   right: 0;
-	width: 2%;
+	width: 38.4px;
 	vertical-align: middle;
-	padding-right: 3%;
-	padding-top: 0.7%;
+	padding-right: 57.6px;
+	padding-top: 13.44px;
 }
 
 .FMCFun {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 1%;
-    width: 14%;
+    margin-bottom: 19.2px;
+    width: 240px;
 }
 
 .bottomImg {
@@ -76,7 +76,6 @@ html,body{
 	vertical-align: middle;
 }
 .aboutus{
-
 	text-align: center;
 	background-color: #EEEEEE;
 	padding-top: 1vw;
@@ -90,14 +89,14 @@ html,body{
 }
 .title{
 	fill: #ffffff;
-	font-size: 10vw;
+	font-size: 192px;
 }
 .wechatTxt{
 	text-align: center;
 	font-family: "Trajan Pro 3";
-	font-size: 3vw;
-	padding-top: 1vw;
- 	padding-bottom:1vw;
+  font-size: 57.6px;
+  padding-top: 19.2px;
+  padding-bottom:19.2px;
 }
 .wechatImg{
 	width: 30%;
@@ -108,33 +107,44 @@ html,body{
 .joinus{
   text-align: center;
   font-family:"bear";
-  font-size: 4vw;
-  padding-top: 1vw;
-  padding-bottom:1vw;
+  font-size: 76.8px;
+  padding-top: 19.2px;
+  padding-bottom:19.2px;
   color: #00A2FF;
 
 }
 .whoweare{
   text-align: center;
   font-family:"rustico";
-  font-size: 4vw;
-  padding-top: 1vw;
-  padding-bottom:1vw;
+  font-size: 76.8px;
+  padding-top: 19.2px;
+  padding-bottom:19.2px;
   color: #FF644E;
 }
 .contactus{
   text-align: center;
   font-family:"Hiragino Sans";
-  font-size: 4vw;
+  font-size: 76.8px;
   font-weight: 100;
-  padding-top: 1vw;
-  padding-bottom:1vw;
+  padding-top: 19.2px;
+  padding-bottom:19.2px;
   color: #F8BA00;
 }
 .whatsnext{
   text-align: center;
-  font-size: 4vw;
-  padding-top: 1vw;
-  padding-bottom:1vw;
+  font-size: 76.8px;
+  padding-top: 19.2px;
+  padding-bottom:19.2px;
   color: #F8BA00;
+}
+.abouUsTxt{
+  color: #5E5E5E;
+  transition: 0.6s ease;
+}
+.abouUsTxt:hover{
+  color: #F8BA00;
+}
+.nextImg{
+  height: 2%;
+  width: 2%;
 }
