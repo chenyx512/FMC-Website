@@ -145,6 +145,10 @@ html,body{
   color: #F8BA00;
 }
 .nextImg{
-  height: 2%;
-  width: 2%;
+  width: 25vw;
+
 }
+#myTable {
+    margin: 0 auto;
+    padding-top: 1vh;
+  }
