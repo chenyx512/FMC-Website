@@ -16,7 +16,7 @@
  }
 html,body{
 	font-family: "maru";
-	font-size: 28px;
+	font-size: 21.6px;
 	height: 100%;
 }
 
@@ -26,29 +26,28 @@ html,body{
   position: relative;
   text-align: center;
 	background-color:#EEEEEE;
-	font-size: 50px;
-	padding-top: 1.92px;
- 	padding-bottom:1.92px;
+	font-size: 37.44px;
+	padding-top: 1.44px;
+ 	padding-bottom:1.44px;
 }
 .search {
   position: absolute;
   right: 0;
-	width: 38.4px;
+	width: 26px;
 	vertical-align: middle;
 	padding-right: 57.6px;
-	padding-top: 13.44px;
+	padding-top: 12px;
 }
 
 .FMCFun {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 19.2px;
-    width: 240px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 19.2px;
+  width: 240px;
 }
 
 .bottomImg {
-	height: 3%;
 	width: 3%;
 	margin-left: 5%;
 	margin-right: 5%;
@@ -68,7 +67,7 @@ html,body{
 }
 .copyright{
 	font-family: "Times New Roman";
-	font-size: 1.2vw;
+	font-size: 17.28px;
 }
 .line{
 	height: 0.1%;
@@ -78,25 +77,20 @@ html,body{
 .aboutus{
 	text-align: center;
 	background-color: #EEEEEE;
-	padding-top: 1vw;
-	padding-bottom:0.3vw;
+	padding-top: 14.4px;
+	padding-bottom:4.32px;
 	z-index: 9999;
-}
-.rect{
-	 fill:#5e5e5e;
-	 opacity:0.8;
-
 }
 .title{
 	fill: #ffffff;
-	font-size: 192px;
+	font-size: 144px;
 }
 .wechatTxt{
 	text-align: center;
 	font-family: "Trajan Pro 3";
-  font-size: 57.6px;
-  padding-top: 19.2px;
-  padding-bottom:19.2px;
+  font-size: 43.2px;
+  padding-top: 14.4px;
+  padding-bottom:14.4px;
 }
 .wechatImg{
 	width: 30%;
@@ -107,34 +101,34 @@ html,body{
 .joinus{
   text-align: center;
   font-family:"bear";
-  font-size: 76.8px;
-  padding-top: 19.2px;
-  padding-bottom:19.2px;
+  font-size: 57.6px;
+  padding-top: 14.4px;
+  padding-bottom:14.4px;
   color: #00A2FF;
 
 }
 .whoweare{
   text-align: center;
   font-family:"rustico";
-  font-size: 76.8px;
-  padding-top: 19.2px;
-  padding-bottom:19.2px;
+  font-size: 57.6px;
+  padding-top: 14.4px;
+  padding-bottom:14.4px;
   color: #FF644E;
 }
 .contactus{
   text-align: center;
   font-family:"Hiragino Sans";
-  font-size: 76.8px;
+  font-size: 57.6px;
   font-weight: 100;
-  padding-top: 19.2px;
-  padding-bottom:19.2px;
+  padding-top: 14.4px;
+  padding-bottom:14.4px;
   color: #F8BA00;
 }
 .whatsnext{
   text-align: center;
-  font-size: 76.8px;
-  padding-top: 19.2px;
-  padding-bottom:19.2px;
+  font-size: 57.6px;
+  padding-top: 14.4px;
+  padding-bottom:14.4px;
   color: #F8BA00;
 }
 .abouUsTxt{
@@ -145,10 +139,23 @@ html,body{
   color: #F8BA00;
 }
 .nextImg{
-  width: 25vw;
-
+  width: 27vw;
+  
 }
+
 #myTable {
     margin: 0 auto;
-    padding-top: 1vh;
-  }
+    padding-top: 5vh;
+    text-align: left;
+    font-size: 20px;
+    vertical-align: text-top;
+}
+
+td{
+  padding-left: 15px;
+  padding-right: 15px;
+
+}
+a{
+  text-decoration: none;
+}
