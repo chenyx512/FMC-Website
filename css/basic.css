@@ -43,7 +43,7 @@ html,body{
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 19.2px;
+  margin-bottom: 14.4px;
   width: 180px;
 }
 
@@ -125,7 +125,7 @@ html,body{
 .whatsnext{
   text-align: center;
   font-size: 57.6px;
-  padding-top: 14.4px;
+  padding-top: 35px;
   padding-bottom:14.4px;
   color: #F8BA00;
 }
@@ -137,6 +137,7 @@ html,body{
   color: #F8BA00;
 }
 .nextImg{
+  display: block;
   width: 27vw;
   
 }
@@ -145,13 +146,14 @@ html,body{
     margin: 0 auto;
     text-align: left;
     font-size: 20px;
-    vertical-align: text-top;
+    
 }
 
 td{
-  padding-left: 15px;
-  padding-right: 15px;
-
+  padding-left: 1vw;
+  padding-right: 1vw;
+  padding-top: 20px;
+  vertical-align: top;
 
 }
 a{
