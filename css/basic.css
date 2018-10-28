@@ -79,10 +79,6 @@ html,body{
 	padding-bottom:4.32px;
 	z-index: 9999;
 }
-.title{
-	fill: #ffffff;
-	font-size: 144px;
-}
 .wechatTxt{
 	text-align: center;
 	font-family: "Trajan Pro 3";
@@ -133,7 +129,7 @@ html,body{
   color: #5E5E5E;
   transition: 0.6s ease;
 }
-.abouUsTxt:hover{
+.abouUsTxt:hover,.gridTxt:hover{
   color: #F8BA00;
 }
 .nextImg{
@@ -150,12 +146,47 @@ html,body{
 }
 
 td{
-  padding-left: 1vw;
-  padding-right: 1vw;
+  padding-left: 0.7vw;
+  padding-right: 0.7vw;
   padding-top: 20px;
   vertical-align: top;
 
 }
 a{
   text-decoration: none;
+}
+.gridTxt{
+ color: #00A2FF;
+ transition: 0.6s ease;
+}
+
+form.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 80%;
+    background: #f1f1f1;
+}
+
+form.example button {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    background: #2196F3;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+}
+
+form.example button:hover {
+    background: #0b7dda;
+}
+
+form.example::after {
+    content: "";
+    clear: both;
+    display: table;
 }
