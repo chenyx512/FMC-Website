@@ -17,26 +17,28 @@
 	<div style="min-height: 57%;text-align: center">
 
 		<br>
-		<div class="slideshow-container">
-		<!-- Full-width images with number and caption text  can add text in each div with class"div"-->
-	  	<div class="indexSlides fade">
-		    <img src="images/830.png" class="sliderImage" onclick="window.location = 'https://www.google.com';" style="cursor: pointer;">
-		  </div>
-		  <div class="indexSlides fade">
-		    <img src="images/smart.png" class="sliderImage" onclick="window.location = 'https://www.google.com';" style="cursor: pointer;">
-		  </div>
-		  <div class="indexSlides fade">
-		    <img src="images/lions.png" class="sliderImage" onclick="window.location = 'https://www.youtube.com/watch?v=JsWNj4afaYQ&t=2s';" style="cursor: pointer;">
-		  </div>
-		  <!-- Next and previous buttons -->
-		  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-		  <a class="next" onclick="plusSlides(1)">&#10095;</a>
-			<div class="dots">
-				<span class="dot item1" onclick="currentSlide(1)"></span>
-				<span class="dot item2" onclick="currentSlide(2)"></span>
-				<span class="dot item3" onclick="currentSlide(3)"></span>
-			</div>
-	 	</div>
+		<a href="javascript:toLink()">
+			<div class="slideshow-container">
+			<!-- Full-width images with number and caption text  can add text in each div with class"div"-->
+		  	<div class="indexSlides fade">
+			    <img src="images/830.png" class="sliderImage">
+			  </div>
+			  <div class="indexSlides fade">
+			    <img src="images/smart.png" class="sliderImage">
+			  </div>
+			  <div class="indexSlides fade">
+			    <img src="images/lions.png" class="sliderImage" onclick="window.location = '';" style="cursor: pointer;">
+			  </div>
+			  <!-- Next and previous buttons -->
+			  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+			  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+				<div class="dots">
+					<span class="dot item1" onclick="currentSlide(1)"></span>
+					<span class="dot item2" onclick="currentSlide(2)"></span>
+					<span class="dot item3" onclick="currentSlide(3)"></span>
+				</div>
+		 	</div>
+		</a>
 		<br>
 		<div class =whatsnext>
 			What's Next?
@@ -124,6 +126,12 @@
 			if(slideIndex==2){dots[1].className += " active2";}
 			if(slideIndex==3){dots[2].className += " active3";}
     }
+		function toLink()
+		{
+			if(slideIndex==1){window.location="https://www.youtube.com/watch?v=JsWNj4afaYQ&t=2s"}
+			if(slideIndex==2){window.location="https://www.youtube.com/watch?v=JsWNj4afaYQ&t=2s"}
+			if(slideIndex==3){window.location="https://www.youtube.com/watch?v=JsWNj4afaYQ&t=2s"}
+		}
   </script>
 
 </body>
