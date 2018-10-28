@@ -60,3 +60,38 @@
     color: black;
   }
 }
+
+.forensikHeader{
+
+  text-align: left;
+  background-color:#EEEEEE;
+  font-size: 37.44px;
+  padding-top: 1.44px;
+  padding-bottom:1.44px;
+}
+.bannor{
+  color: #5E5E5E;
+  padding-left: 5%;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 25px;
+   transition: 0.6s ease;
+}
+.bannor:hover{
+  color: red;
+}
+.forensikSearch {
+  width: 26px;
+  float: right;
+  vertical-align: middle;
+  padding-right: 57.6px;
+  padding-top: 12px;
+}
+.title{
+  padding-top: 30px;
+  text-align: center;
+  font-size: 50px;
+}
+.content{
+  width: 55%;
+  padding-left: 5%
+}
