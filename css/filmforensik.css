@@ -1,8 +1,9 @@
 .filmforensik{
   font-family: "Courier New", Courier, monospace;
-  text-align: center;
+  text-align: left;
   font-size: 130px;
   line-height: 83px;
+  padding-left: 15%
 }
 
 .blinking-cursor {
@@ -62,19 +63,19 @@
 }
 
 .forensikHeader{
-
+  font-family: 'Courier New';
   text-align: left;
   background-color:#EEEEEE;
-  font-size: 37.44px;
-  padding-top: 1.44px;
-  padding-bottom:1.44px;
+  font-size: 34.44px;
+  padding-top: 9px;
+  padding-bottom:9px;
 }
 .bannor{
   color: #5E5E5E;
-  padding-left: 5%;
+  padding-left: 4%;
   font-family: "Courier New", Courier, monospace;
-  font-size: 25px;
-   transition: 0.6s ease;
+  font-size: 22px;
+  transition: 0.6s ease;
 }
 .bannor:hover{
   color: red;
@@ -84,14 +85,17 @@
   float: right;
   vertical-align: middle;
   padding-right: 57.6px;
-  padding-top: 12px;
+  padding-top: 4px;
 }
 .title{
+  font-family: "Hiragino Kaku Gothic Pro";
+  color: #5E5E5E;
   padding-top: 30px;
   text-align: center;
-  font-size: 50px;
+  font-size: 70px;
 }
 .content{
   width: 55%;
-  padding-left: 5%
+  padding-left: 5%;
+  font-family: "Hiragino Kaku Gothic Pro";
 }
