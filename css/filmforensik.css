@@ -1,9 +1,9 @@
 .filmforensik{
   font-family: "Courier New", Courier, monospace;
-  text-align: left;
+  text-align: center;
   font-size: 130px;
   line-height: 83px;
-  padding-left: 15%
+
 }
 
 .blinking-cursor {
@@ -69,6 +69,7 @@
   font-size: 34.44px;
   padding-top: 9px;
   padding-bottom:9px;
+
 }
 .bannor{
   color: #5E5E5E;
@@ -83,7 +84,6 @@
 .forensikSearch {
   width: 26px;
   float: right;
-  vertical-align: middle;
   padding-right: 57.6px;
   padding-top: 4px;
 }
@@ -95,7 +95,11 @@
   font-size: 70px;
 }
 .content{
-  width: 55%;
-  padding-left: 5%;
+  width: 45%;
+  padding-left: 10%;
   font-family: "Hiragino Kaku Gothic Pro";
+}
+.history{
+  width:20%;
+  padding-right:10%;
 }
