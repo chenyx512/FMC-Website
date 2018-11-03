@@ -117,3 +117,6 @@
   vertical-align: middle;
   color: #000000;
 }
+iframe  {
+  float:left; height:50%; width:100%;
+}
