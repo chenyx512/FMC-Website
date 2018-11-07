@@ -20,8 +20,6 @@ html,body{
 	height: 100%;
 }
 
-
-
 .FMCHeader {
   position: relative;
   text-align: center;
@@ -135,14 +133,14 @@ html,body{
 .nextImg{
   display: block;
   width: 27vw;
-  
+
 }
 
 #myTable {
     margin: 0 auto;
     text-align: left;
     font-size: 1.7vw;
-    
+
 }
 
 td{
