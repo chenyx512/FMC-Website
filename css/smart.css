@@ -31,10 +31,9 @@
  }
 .smartTxt{
 	font-family: "Hiragino Kaku Gothic Pro";
-	font-size: 17px;
 	position:absolute;
 	top: 75%;
-	z-index: 2;
+	z-index: 1;
 	color: #eee;
 	opacity: 0;
 	transition: .6s ease;
