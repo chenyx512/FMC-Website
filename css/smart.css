@@ -6,7 +6,7 @@
 .column {
     float: left;
     width: 32%;
-    padding: 10px 10px 10px 0px;
+    padding: 1vw 0.5vw 1vw 0.5vw;
     position: relative;
 
 }

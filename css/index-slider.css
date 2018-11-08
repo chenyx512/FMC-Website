@@ -86,8 +86,8 @@
 .dot {
   background-color: #929292;
   cursor: pointer;
-  height: 2.5vw;
-  width: 2.5vw;
+  height: 2vw;
+  width: 2vw;
   margin: 0 1.7vw;
   border-radius: 50%;
   display: inline-block;
