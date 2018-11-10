@@ -64,6 +64,7 @@
 .forensikHeader{
   font-family: 'Courier New';
   text-align: center;
+  vertical-align: middle;
   background-color:#EEEEEE;
   font-size: 34.44px;
   padding-top: 9px;
@@ -129,4 +130,14 @@
 }
 iframe  {
   float:left; height:50%; width:100%;
+}
+.contentUpdate{
+  width: 45%;
+  padding-right: 10%;
+  font-family: "Hiragino Kaku Gothic Pro";
+}
+.historyUpdate{
+  width:15%;
+  padding-left: 5%;
+  font-size: 15px;
 }
