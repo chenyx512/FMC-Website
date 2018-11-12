@@ -78,18 +78,19 @@
   position: absolute;
 }
 
-.poster-image:hover{
+.poster-link:hover .poster-image{
   transform: scale(1.02);
   -webkit-filter: brightness(60%);
 
 }
-.poster-image:hover + .poster-txt{
-  opacity: 1;
-}
-.poster-txt:hover{
+.poster-link:hover .poster-txt{
   opacity: 1;
 }
 
+.poster-image:hover{
+  transform: scale(1.02);
+
+}
 .poster-txt{
   text-align: center;
   position:absolute;
@@ -151,9 +152,8 @@
   color: #000000;
 }
 iframe  {
-  margin-left: 14vw;
-  width: 40vw;
-  height: 30vw;
+  width: 55vw;
+  height: 30.9vw;
 }
 .contentUpdate{
   width: 45%;

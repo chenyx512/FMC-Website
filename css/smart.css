@@ -17,6 +17,9 @@
     display: table;
     clear: both;
 }
+div{
+  position: relative;
+}
 
 .smartImg{
   width: 32vw;
@@ -32,7 +35,7 @@
 .smartTxt{
 	font-family: "Hiragino Kaku Gothic Pro";
 	position:absolute;
-	top: 75%;
+	bottom: 10px;
 	z-index: 1;
 	color: #eee;
 	opacity: 0;
