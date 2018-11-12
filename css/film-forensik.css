@@ -71,6 +71,9 @@
   padding-bottom:9px;
 
 }
+.poster-link{
+  position: relative;
+}
 
 .poster-image{
   border-radius: 1.5vw;
@@ -96,7 +99,7 @@
   position:absolute;
   color: white;
   opacity: 0;
-  font-size: 50px;
+  font-size: 4vw;
   z-index: 2;
 }
 
