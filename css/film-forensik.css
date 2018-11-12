@@ -93,7 +93,7 @@
 .poster-txt{
   text-align: center;
   position:absolute;
-  color: white; 
+  color: white;
   opacity: 0;
   font-size: 50px;
   z-index: 2;
@@ -151,7 +151,9 @@
   color: #000000;
 }
 iframe  {
-  float:left; height:50%; width:100%;
+  margin-left: 14vw;
+  width: 40vw;
+  height: 30vw;
 }
 .contentUpdate{
   width: 45%;
@@ -178,7 +180,7 @@ iframe  {
 }
 .catoUpdate{
   padding-top:5px;
-  padding-bottom: 5px; 
+  padding-bottom: 5px;
   color: #5E5E5E;
   transition: .6s ease;
 }
