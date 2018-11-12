@@ -124,14 +124,14 @@
   font-size: 70px;
 }
 .content{
-  width: 45%;
+  width: 55%;
   padding-left: 10%;
   font-family: "Hiragino Kaku Gothic Pro";
   font-size: 18px;
   padding-bottom: 100px;
 }
 .history{
-  width:25%;
+  width:30%;
   padding-right:10%;
   font-size: 15px;
 }
@@ -152,13 +152,13 @@
   color: #000000;
 }
 iframe  {
-  width: 55vw;
-  height: 30.9vw;
+  width: 48vw;
+  height: 27vw;
 }
 .contentUpdate{
   width: 45%;
   padding-right: 10%;
-  font-family: "Hiragino Kaku Gothic Pro";
+  font-family: "hiragino";
   font-size: 18px;
   padding-bottom: 100px;
 }
